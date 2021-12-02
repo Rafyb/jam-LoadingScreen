@@ -21,6 +21,8 @@ public class GeneralScript : MonoBehaviour
     public float shakeDuration;
     public float shakeMagnitude;
 
+    public Fade fade;
+
     private void Start()
     {
 
@@ -44,7 +46,7 @@ public class GeneralScript : MonoBehaviour
 
         if (_camera.transform.position.x >= cameraToGo.transform.position.x - threshold)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("LOADING");
 
         }
     }

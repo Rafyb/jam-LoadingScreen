@@ -1660,11 +1660,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isGlobal: 1
-  priority: 0
-  blendDistance: 0
-  weight: 1
-  sharedProfile: {fileID: 0}
 --- !u!1 &457237108
 GameObject:
   m_ObjectHideFlags: 0
@@ -10989,7 +10984,7 @@ MonoBehaviour:
   canvasOption: {fileID: 2095689320}
   positionIn: {fileID: 1426931701}
   positionOut: {fileID: 2094347807}
-  timeGo: 0.1
+  timeGo: 0.05
   inOut: 0
   switchOn: {fileID: 1849319155}
   mixerMusic: {fileID: 24100000, guid: 747a50003d93c1f49864c49a7a687e71, type: 2}

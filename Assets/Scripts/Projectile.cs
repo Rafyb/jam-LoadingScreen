@@ -8,13 +8,6 @@ public class Projectile : MonoBehaviour
 {
     public float Speed;
     
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         Vector3 pos = transform.position;
@@ -27,6 +20,7 @@ public class Projectile : MonoBehaviour
         if (other.tag.Equals("Player"))
         {
             Game.Instance.Death();
+            Game.Instance.DestroyProj(this);
         }
         if (other.tag.Equals("Finish"))
         {

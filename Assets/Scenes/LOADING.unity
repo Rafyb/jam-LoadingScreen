@@ -123,28 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &225561154 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2489330686859082774, guid: 85c59d40e26fd7b4eb7813da631666f8, type: 3}
+--- !u!114 &225561155 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 225561155, guid: 85c59d40e26fd7b4eb7813da631666f8, type: 3}
   m_PrefabInstance: {fileID: 2489330688471605945}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &225561155
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 225561154}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f074c5870a63156428a1ba7185fbd277, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Fade: {fileID: 8287255823598590516}
-  NextScene: GAME
-  PlayBtn: {fileID: 1893818660}
-  LoadBar: {fileID: 1630365479}
-  LoadingTxt: {fileID: 569238883}
 --- !u!1 &254502272
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,17 +432,6 @@ MonoBehaviour:
   Player: {fileID: 418136898}
   ProjectilePrefab: {fileID: 9043088916049407836, guid: c5ce1f1b79c3fc14dab1bdd442e3f017, type: 3}
   Speed: 0
---- !u!114 &914606171 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 159228652350964892, guid: 5ba1b4fd00b43d54fa99931ff92d143a, type: 3}
-  m_PrefabInstance: {fileID: 159228652594285767}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1079607973
 GameObject:
   m_ObjectHideFlags: 0
@@ -812,10 +790,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 159228652350964892, guid: 5ba1b4fd00b43d54fa99931ff92d143a, type: 3}
-      propertyPath: m_Color.a
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8158146334735718128, guid: 5ba1b4fd00b43d54fa99931ff92d143a, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -900,14 +874,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8158146334735718131, guid: 5ba1b4fd00b43d54fa99931ff92d143a, type: 3}
-      propertyPath: Delay
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8158146334735718131, guid: 5ba1b4fd00b43d54fa99931ff92d143a, type: 3}
-      propertyPath: BlackScreen
-      value: 
-      objectReference: {fileID: 914606171}
     - target: {fileID: 8158146334735718132, guid: 5ba1b4fd00b43d54fa99931ff92d143a, type: 3}
       propertyPath: m_Name
       value: Fade
@@ -921,6 +887,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 225561155, guid: 85c59d40e26fd7b4eb7813da631666f8, type: 3}
+      propertyPath: Fade
+      value: 
+      objectReference: {fileID: 8287255823598590516}
+    - target: {fileID: 225561155, guid: 85c59d40e26fd7b4eb7813da631666f8, type: 3}
+      propertyPath: LoadBar
+      value: 
+      objectReference: {fileID: 1630365479}
+    - target: {fileID: 225561155, guid: 85c59d40e26fd7b4eb7813da631666f8, type: 3}
+      propertyPath: PlayBtn
+      value: 
+      objectReference: {fileID: 1893818660}
+    - target: {fileID: 225561155, guid: 85c59d40e26fd7b4eb7813da631666f8, type: 3}
+      propertyPath: LoadingTxt
+      value: 
+      objectReference: {fileID: 569238883}
     - target: {fileID: 2489330686859082761, guid: 85c59d40e26fd7b4eb7813da631666f8, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1069,18 +1051,6 @@ PrefabInstance:
     - target: {fileID: 5148581403689280069, guid: 11ed5f981ab7e0f418748a0d5c30225b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7044133454313941428, guid: 11ed5f981ab7e0f418748a0d5c30225b, type: 3}
-      propertyPath: m_Color.b
-      value: 0.11764707
-      objectReference: {fileID: 0}
-    - target: {fileID: 7044133454313941428, guid: 11ed5f981ab7e0f418748a0d5c30225b, type: 3}
-      propertyPath: m_Color.g
-      value: 0.5764706
-      objectReference: {fileID: 0}
-    - target: {fileID: 7044133454313941428, guid: 11ed5f981ab7e0f418748a0d5c30225b, type: 3}
-      propertyPath: m_Color.r
-      value: 0.9686275
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11ed5f981ab7e0f418748a0d5c30225b, type: 3}
