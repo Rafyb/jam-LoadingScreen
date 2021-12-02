@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: daae694119f58454eb6c4bcfa8a4450a
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _particule_pleine: {fileID: 2800000, guid: 4500448c3e5285849ba4fd28896ee7ad, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
