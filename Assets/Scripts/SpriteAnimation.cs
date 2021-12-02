@@ -15,6 +15,7 @@ public class SpriteAnimation : MonoBehaviour
 
     void Start()
     {
+        _sr = GetComponentInChildren<SpriteRenderer>();
         _idx = 0;
         _sr.sprite = Sprites[_idx];
     }

@@ -18,7 +18,7 @@ public class LoadingPage : MonoBehaviour
     public GameObject PlayBtn;
     public Image LoadBar;
     public TMP_Text LoadingTxt;
-    
+
     // Start is called before the first frame update
     void Start()
     {
