@@ -13,6 +13,7 @@ public class SpriteAnimation : MonoBehaviour
     private SpriteRenderer _sr;
     private float _timer;
 
+    private bool _dead = false;
     void Start()
     {
         _sr = GetComponentInChildren<SpriteRenderer>();
@@ -23,11 +24,19 @@ public class SpriteAnimation : MonoBehaviour
 
     void Update()
     {
+        if (_dead) return;
         _timer += Time.deltaTime;
         if (_timer >= Framrate)
         {
             _timer -= Framrate;
             _idx = (_idx + 1) % Sprites.Length;
+            _sr.sprite = Sprites[_idx];
         }
+    }
+
+    public void Kill()
+    {
+        _dead = true;
+        _sr.sprite = DeathSprite;
     }
 }
