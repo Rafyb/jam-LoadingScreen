@@ -260,7 +260,7 @@ MonoBehaviour:
   Sprites:
   - {fileID: 2955899630335881275, guid: 23659ac9c64b3a3418f8c36a6655b570, type: 3}
   - {fileID: 7029094791068033497, guid: 23659ac9c64b3a3418f8c36a6655b570, type: 3}
-  Framrate: 0.1
+  Framrate: 1
   DeathSprite: {fileID: 576491162859700739, guid: 23659ac9c64b3a3418f8c36a6655b570, type: 3}
 --- !u!1 &473550633
 GameObject:
@@ -436,6 +436,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9386397898d47ad419e2d3e389b22966, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ScoreTxt: {fileID: 0}
   Lines:
   - {fileID: 303560845}
   - {fileID: 473550634}
@@ -443,6 +444,7 @@ MonoBehaviour:
   - {fileID: 254502273}
   - {fileID: 1079607974}
   Player: {fileID: 418136898}
+  Speed: 0
 --- !u!114 &914606171 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 159228652350964892, guid: 5ba1b4fd00b43d54fa99931ff92d143a, type: 3}

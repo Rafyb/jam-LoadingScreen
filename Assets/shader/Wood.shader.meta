@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: dee46d472dfb02745adbf671d1f384cb
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _WOOD_height: {fileID: 2800000, guid: 9e5cfce8ce175224b93ef3c57cb12142, type: 3}
+  - _NormalMap: {fileID: 2800000, guid: 605fc95f6b65cd1478f5346b5ff93b5d, type: 3}
+  - _AlbedoMap: {fileID: 2800000, guid: b0ba6e16e82fdb14f9edd57041f551f7, type: 3}
+  - _WOOD_roughness: {fileID: 2800000, guid: d3bc429c80f1c154c844dd7dd4e882d2, type: 3}
+  - _WOOD_ambient_occlusion: {fileID: 2800000, guid: c802ee10ee17aad498bf307fe0a0f24a, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
