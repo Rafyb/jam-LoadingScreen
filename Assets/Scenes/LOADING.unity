@@ -257,6 +257,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb587de9a5c0a0546a6c082c7a7a2187, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Sprites:
+  - {fileID: 2955899630335881275, guid: 23659ac9c64b3a3418f8c36a6655b570, type: 3}
+  - {fileID: 7029094791068033497, guid: 23659ac9c64b3a3418f8c36a6655b570, type: 3}
+  Framrate: 0.1
+  DeathSprite: {fileID: 576491162859700739, guid: 23659ac9c64b3a3418f8c36a6655b570, type: 3}
 --- !u!1 &473550633
 GameObject:
   m_ObjectHideFlags: 0
